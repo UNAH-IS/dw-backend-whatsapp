@@ -1,8 +1,7 @@
-// var mongoose = require('mongoose');
 import mongoose from 'mongoose';
 
 const servidor = 'localhost:27017';
-const db = 'spotify';
+const db = 'whatsapp';
 
 class Database{
     constructor(){
@@ -16,4 +15,4 @@ class Database{
     }
 }
 
-// module.exports = new Database();
+export default Database;
